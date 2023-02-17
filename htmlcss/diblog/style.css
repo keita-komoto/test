@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+html *,
+::before,
+::after {
+  box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+header{
+    width:100%;
+    align-items: baseline;
+    height: 100%;
+}
+header h1 {
+    display: inline;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+    line-height: 1;
+}
+header h1 img {
+    height: 100px;
+    margin: 0;
+    background: #555;
+}
+.menu {
+    background: #000;
+    width: 100%;
+    display: flex;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0 auto 0 20px;
+}
+header ul li{
+    list-style: none;
+    padding-right: 30px;
+}
+header ul li:last-child{
+    padding-right: 0px;
+}
+header ul li a{
+    text-decoration: none;
+    color: #efefef;
+}
+
+.twoclm{
+    display: flex;
+    margin: 20px 0px;
+}
+
+.left {
+    width: 70%;
+    border: 3px solid #0066FF;
+    border-left: none;
+    padding: 0 20px 20px;
+}
+h2 {
+    padding: 5px 0 5px 10px;
+    border-left: 5px solid #000;
+    border-bottom: 1px solid #000;
+    margin-right: 10px;
+}
+.hero {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+}
+.hero img{
+    width: 100%;
+}
+.moji p{
+    margin-left: 20px;
+}
+.booklist-box {
+    background: #ccc;
+    padding: 20px;
+    max-height: 100%; 
+}
+.booklist-box ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.booklist-box ul li{
+    width: calc(25% - 20px);
+    margin: 0 10px;
+}
+.booklist-box ul li img {
+    max-width: 100%;
+}
+.booklist-box ul p{
+    margin: 0 0 20px 0;
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+.right {
+    width: 30%;
+    height: auto;
+    padding: 0 10px;
+    border: 3px solid #FF6699;
+    border-right: none;
+    margin-right: 0;
+}
+
+.right p{
+    font-weight:bold;
+    border-bottom: 3px dashed #aaa;
+}
+.right ul{
+    list-style: none;
+}
+.right li{
+    font-size: 0.75rem;
+}
+footer {
+    display: flex;
+    width: 100%;
+    background: #000;
+    color: #efefef;
+}
+footer .copy {
+    width: 100%;
+    text-align: center;
+}
